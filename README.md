@@ -39,7 +39,20 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Deployment to Vercel
+
+To deploy this app to Vercel, follow these steps:
+
+1. Push your code to a GitHub repository (already done for this project).
+2. Go to [Vercel](https://vercel.com/) and log in.
+3. Click "Add New..." and select "Project".
+4. Import the `nufky` repository from your GitHub account.
+5. Vercel will automatically detect that it's a Create React App project.
+6. Click "Deploy".
+
+Your app will be automatically deployed every time you push to the `master` branch.
+
+### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
